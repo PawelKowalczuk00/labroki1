@@ -13,16 +13,12 @@ import pl.edu.pwr.student.arduino.model.ArduinoModel;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FilenameFilter;
 import java.io.IOException;
-import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.rmi.UnexpectedException;
-import java.util.ArrayList;
-import java.util.List;
 
 class ArduinoCRUD implements CRUD<ArduinoModel> {
 

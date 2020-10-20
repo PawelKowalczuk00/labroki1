@@ -27,7 +27,4 @@ task runJava(type: JavaExec, group: "Execution", description: "Run the main clas
 
 dependencies {
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.1'
-    /*runtime files("libs/jackson-databind-2.11.1.jar")
-    runtime files("libs/jackson-annotations-2.11.1.jar")
-    runtime files("libs/jackson-core-2.11.1.jar")*/
 }
