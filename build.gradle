@@ -1,0 +1,33 @@
+/*
+    Program: Arduino
+    Autor: Paweł Kowalczuk
+    Data: 12.10.2020 na zajęciach
+
+    Plik: build.gradle
+
+ */
+
+plugins {
+    id 'java'
+}
+
+group 'pl.edu.pwr.student'
+version 'no-ver'
+
+repositories {
+    mavenCentral()
+}
+
+task runJava(type: JavaExec, group: "Execution", description: "Run the main class with JavaExecTask") {
+    dependsOn build
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'pl.edu.pwr.student.arduino.Main'
+    standardInput = System.in
+}
+
+dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.1'
+    /*runtime files("libs/jackson-databind-2.11.1.jar")
+    runtime files("libs/jackson-annotations-2.11.1.jar")
+    runtime files("libs/jackson-core-2.11.1.jar")*/
+}
