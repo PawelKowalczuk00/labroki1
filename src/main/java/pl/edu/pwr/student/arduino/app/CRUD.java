@@ -3,7 +3,7 @@ package pl.edu.pwr.student.arduino.app;
 /*
     Program: Arduino
     Autor: Paweł Kowalczuk
-    Data: 12.10.2020 na zajęciach
+    Data: 20.10.2020
 
     Plik: CRUD.java
 

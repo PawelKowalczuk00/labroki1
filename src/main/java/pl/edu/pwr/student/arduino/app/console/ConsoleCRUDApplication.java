@@ -3,7 +3,7 @@ package pl.edu.pwr.student.arduino.app.console;
 /*
     Program: Arduino
     Autor: Paweł Kowalczuk
-    Data: 12.10.2020 na zajęciach
+    Data: 20.10.2020
 
     Plik: ConsoleCRUDApplication.java
 
@@ -15,10 +15,7 @@ import pl.edu.pwr.student.arduino.model.ArduinoModel;
 import pl.edu.pwr.student.arduino.model.PhysicalValue;
 import pl.edu.pwr.student.arduino.model.PhysicalValueException;
 
-import java.io.File;
-import java.io.FilenameFilter;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.rmi.UnexpectedException;
 import java.util.Arrays;
 import java.util.Scanner;

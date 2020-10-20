@@ -3,7 +3,7 @@ package pl.edu.pwr.student.arduino.model;
 /*
     Program: Arduino
     Autor: Paweł Kowalczuk
-    Data: 12.10.2020
+    Data: 20.10.2020
 
     Plik: PhysicalValueException.java
 
